@@ -18,11 +18,12 @@ while True:
     # Multiplication
     if (operator == '*'):
         result = num1 * num2
-
+    # Division
     if (operator == '/'):
         if num2 == 0:
+            # Error handling for division by zero
             print("Error: Division by zero is not allowed.")
             continue
         result = num1 / num2
-
+# Result store here and present here
 print("Result: ", result)

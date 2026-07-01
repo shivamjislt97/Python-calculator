@@ -12,10 +12,10 @@ while True:
     # Perform the calculation based on the operator
     if (operator == '+'):
         result = num1 + num2
-
+    # Subtraction
     if (operator == '-'):
         result = num1 - num2
-
+    # Multiplication
     if (operator == '*'):
         result = num1 * num2
 

@@ -9,6 +9,7 @@ while True:
 
     num2 = int(input("Enter the number: "))
 
+    # Perform the calculation based on the operator
     if (operator == '+'):
         result = num1 + num2
 
